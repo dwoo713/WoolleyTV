@@ -1,0 +1,15 @@
+{
+  "name": "WoolleyTV Picks",
+  "addons": [
+    {"id": "picks.ted", "name": "TED Talks", "version": "1.0.0",
+     "description": "The latest TED talks (video)",
+     "sources": [{"name": "Latest talks", "type": "rss", "url": "https://feeds.feedburner.com/TEDTalks_video"}]},
+    {"id": "picks.news", "name": "News Podcasts", "version": "1.0.0",
+     "description": "PBS NewsHour and NPR Up First (audio)",
+     "sources": [{"name": "PBS NewsHour", "type": "rss", "url": "https://www.pbs.org/newshour/feeds/rss/podcasts/show"},
+                 {"name": "NPR Up First", "type": "rss", "url": "https://feeds.npr.org/510318/podcast.xml"}]},
+    {"id": "picks.nasa", "name": "NASA", "version": "1.0.0",
+     "description": "Houston We Have a Podcast (audio)",
+     "sources": [{"name": "Houston We Have a Podcast", "type": "rss", "url": "https://www.nasa.gov/feeds/podcasts/houston-we-have-a-podcast"}]}
+  ]
+}
